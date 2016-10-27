@@ -46,7 +46,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
 jar {
-    baseName = 'secure-session-management-poc'
+    baseName = 'ssmpoc'
     version =  '0.1.0'
 }
 

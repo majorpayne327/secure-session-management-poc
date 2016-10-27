@@ -1,7 +1,7 @@
-package edu.arch.securityapp.controllers;
+package edu.arch.ssmpoc.controllers;
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Created by chris on 10/27/16.
