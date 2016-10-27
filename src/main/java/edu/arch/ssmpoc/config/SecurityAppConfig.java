@@ -1,6 +1,6 @@
-package edu.arch.securityapp.config;
+package edu.arch.ssmpoc.config;
 
-import edu.arch.securityapp.controllers.HomeController;
+import edu.arch.ssmpoc.controllers.HomeController;
 import org.springframework.context.annotation.Bean;
 
 /**
