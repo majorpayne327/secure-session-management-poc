@@ -60,8 +60,8 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
-
     compile("org.springframework.security:spring-security-web")
+    compile("org.springframework.security:spring-security-config")
 
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
