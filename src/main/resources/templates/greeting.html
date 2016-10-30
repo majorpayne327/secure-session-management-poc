@@ -5,6 +5,18 @@
     <title>Welcome!</title>
 </head>
 <body>
+<a href="/details">Menu</a>
+<div th:if="${loggedIn}">
+<a href="./logout">Log Out</a>
+</div>
+<div th:if="${!loggedIn}">
+    <a href="/login">Log In</a>
+</div>
+<div>
     <p th:text="'Hello, ' + ${name} + '!'"/>
+    <!--/*@thymesVar id="role" type="String"*/-->
+    <p th:text="${role}" />
+</div>
+
 </body>
 </html>

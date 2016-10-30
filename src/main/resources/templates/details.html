@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Details</title>
+</head>
+<body>
+<a href="../">Home</a>
+<a href="./logout">Log Out</a>
+<table>
+    <tr>
+        <th>Item Name</th>
+        <th>Price</th>
+        <th>Inventory</th>
+    </tr>
+    <tr th:each="item : ${menu}">
+        <td th:text="${item.name}"></td>
+        <td th:text="${item.price}"></td>
+        <td th:text="${item.getInventory()}"></td>
+    </tr>
+</table>
+</body>
+</html>
